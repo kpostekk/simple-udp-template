@@ -31,7 +31,7 @@ public class DatagramClient extends DatagramSocket {
     }
 
     public DatagramResponse receiveResponse() {
-        lastResponse = new DatagramResponse(this, receivePacket())
+        lastResponse = new DatagramResponse(this, receivePacket());
         return lastResponse;
     }
 
