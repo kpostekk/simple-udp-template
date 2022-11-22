@@ -10,8 +10,12 @@ import java.net.SocketException;
 public class DatagramClient extends DatagramSocket {
     private DatagramResponse lastResponse;
 
+    public DatagramClient(int port) throws SocketException {
+        super(port);
+    }
+
     public DatagramClient() throws SocketException {
-        super(9090);
+        super();
     }
 
     public DatagramPacket createPacket(Object object) {
