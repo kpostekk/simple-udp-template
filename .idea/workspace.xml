@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2903ca5f-b1e0-45e7-a009-8d947b14b755" name="Changes" comment="More verbose instructions (suck my cock)">
-      <change afterPath="$PROJECT_DIR$/src/fuck/pjatk/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fuck/pjatk/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2903ca5f-b1e0-45e7-a009-8d947b14b755" name="Changes" comment="Add implementation of task server TCP/UDP">
+      <change afterPath="$PROJECT_DIR$/Zadanie.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/udp/DatagramClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/udp/DatagramClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fuck.pjatk.Main" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fuck.pjatk.Client" />
       <module name="simple-udp-template" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +89,7 @@
       <workItem from="1668861015664" duration="2019000" />
       <workItem from="1668866637156" duration="5189000" />
       <workItem from="1669061251865" duration="3744000" />
-      <workItem from="1669135531015" duration="554000" />
+      <workItem from="1669135531015" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="Initial shit">
       <created>1669062344188</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669064494165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add implementation of task server TCP/UDP">
+      <created>1669136219305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669136219305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
     <MESSAGE value="Initial shit" />
     <MESSAGE value="missing semicolon" />
     <MESSAGE value="More verbose instructions (suck my cock)" />
-    <option name="LAST_COMMIT_MESSAGE" value="More verbose instructions (suck my cock)" />
+    <MESSAGE value="Add implementation of task server TCP/UDP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation of task server TCP/UDP" />
   </component>
 </project>

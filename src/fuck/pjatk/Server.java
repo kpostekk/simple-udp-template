@@ -3,6 +3,8 @@ package fuck.pjatk;
 import fuck.pjatk.udp.DatagramClient;
 
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class Server {
     private final DatagramClient udpClient;
 
     public Server() throws IOException {
-        tcpSocket = new ServerSocket(9090);
+        tcpSocket = new ServerSocket(15559);
         udpClient = new DatagramClient();
     }
 
