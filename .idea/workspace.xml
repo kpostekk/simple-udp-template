@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2903ca5f-b1e0-45e7-a009-8d947b14b755" name="Changes" comment="Add implementation of task server TCP/UDP">
-      <change afterPath="$PROJECT_DIR$/Zadanie.md" afterDir="false" />
+    <list default="true" id="2903ca5f-b1e0-45e7-a009-8d947b14b755" name="Changes" comment="Remove boilerplate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/bootsrtap/Bootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/bootsrtap/Bootstrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fuck/pjatk/udp/DatagramResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fuck/pjatk/udp/DatagramResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kpostek/Documents",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -58,9 +59,22 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fuck.pjatk.Client" />
+      <module name="simple-udp-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fuck.pjatk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fuck.pjatk.Server" />
       <module name="simple-udp-template" />
       <extension name="coverage">
         <pattern>
@@ -75,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +104,7 @@
       <workItem from="1668861015664" duration="2019000" />
       <workItem from="1668866637156" duration="5189000" />
       <workItem from="1669061251865" duration="3744000" />
-      <workItem from="1669135531015" duration="2083000" />
+      <workItem from="1669135531015" duration="9193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial shit">
       <created>1669062344188</created>
@@ -119,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669136219305</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove boilerplate">
+      <created>1669138393776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669138393776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +163,17 @@
     <MESSAGE value="missing semicolon" />
     <MESSAGE value="More verbose instructions (suck my cock)" />
     <MESSAGE value="Add implementation of task server TCP/UDP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation of task server TCP/UDP" />
+    <MESSAGE value="Remove boilerplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove boilerplate" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

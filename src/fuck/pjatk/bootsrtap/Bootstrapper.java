@@ -1,6 +1,7 @@
 package fuck.pjatk.bootsrtap;
 
 import java.io.IOException;
+import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
@@ -25,7 +26,7 @@ public class Bootstrapper extends Socket {
      * @param flag flaga podana w zadaniu
      */
     public void bootstrap(String clientAddress, int clientPort, int flag) throws IOException {
-        var writer = new PrintWriter(getOutputStream());
+        var writer = new PrintStream(getOutputStream());
         var payload = String.format("%s:%d", clientAddress, clientPort);
         writer.println(flag);
         writer.println(payload);

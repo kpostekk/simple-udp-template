@@ -19,7 +19,7 @@ public class DatagramResponse {
     }
 
     public void reply(Object object) throws IOException {
-        client.sendObject(object, String.valueOf(replyAddress), replyPort);
+        client.sendObject(object, replyAddress.getHostAddress(), replyPort);
     }
 
     public DatagramPacket getPacket() {
